@@ -1,5 +1,5 @@
-import 'lib/processor.dart';
-import 'lib/payment.dart';
+import 'processor.dart';
+import 'payment.dart';
 
 class DummyPayment implements Payment {
   @override
