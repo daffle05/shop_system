@@ -1,10 +1,10 @@
 import 'processor.dart';
-import 'implementation_a.dart';
+import 'service_fee_payment.dart';
 import 'cashback.dart';   // <-- use your file name here
 
 void main() {
-  print("=== Demo: Processor with Implementation A (Service Fee) ===");
-  var processorA = Processor(ImplementationA());
+  print("=== Demo: Processor with ServiceFeePayment (Service Fee) ===");
+  var processorA = Processor(ServiceFeePayment());
   processorA.checkout(1500.0);
   processorA.refund(300.0);
 
